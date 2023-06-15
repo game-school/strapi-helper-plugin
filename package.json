@@ -5,30 +5,12 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/strapi/strapi.git",
-    "directory": "packages/strapi-helper-plugin"
-  },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=10.16.0 <=18.x.x",
     "npm": ">=6.0.0"
-  },
-  "author": {
-    "email": "hi@strapi.io",
-    "name": "Strapi team",
-    "url": "https://strapi.io"
   },
   "main": "dist/strapi-helper-plugin.cjs.min.js",
   "module": "dist/strapi-helper-plugin.esm.min.js",
-  "maintainers": [
-    {
-      "name": "Strapi team",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
-    }
-  ],
-  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "prepublishOnly": "npm run build",
     "prebuild": "rimraf dist",
@@ -81,6 +63,5 @@
     "reactstrap": "8.4.1",
     "styled-components": "^5.2.3",
     "whatwg-fetch": "^3.6.2"
-  },
-  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+  }
 }
